@@ -8,7 +8,10 @@ scienceScore = int(input('Type your science score '))
 
 #This calculates the composite score
 compScore = float(mathScore + readingScore + englishScore + scienceScore)/float(4)
-print(float(compScore))
+
+#Added Rounding Mechanism
+print(round(compScore,0))
+
 
 #This section of code offers the users feedback regarding their score
 if compScore > 33:
@@ -19,4 +22,4 @@ if compScore > 24 and compScore < 29:
     print("Good work, you can probably get into a solid state school.")
 if compScore < 24:
     print("Study and retake, you can do better")
-    
+
