@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #Use this program to calculate your ACT composite score
-#Version 2.0
+#Version 2.1
 mathScore = int(input('Type in your math score '))
 englishScore = int(input('Type in your english score '))
 readingScore = int(input('Type your reading score '))
