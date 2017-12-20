@@ -14,12 +14,20 @@ print(round(compScore,0))
 
 
 #This section of code offers the users feedback regarding their score
-if compScore > 33:
-    print('Wow, Enjoy MIT')
-if compScore < 33 and compScore > 29:
-    print('Smart kiddo aye')
-if compScore > 24 and compScore < 29:
-    print("Good work, you can probably get into a solid state school.")
-if compScore < 24:
-    print("Study and retake, you can do better")
+if compScore > 34:
+	print("Welcome to the 99th Percentile. It's lonely at the top.")
 
+if compScore > 32 and compScore < 34:
+	print("You must be aiming for some top schools! You're scores are some of the best in that nation.")
+
+if compScore > 30 and compScore < 32:
+	print("Wow! You're sure to get in many great colleges. ")
+
+if compScore > 27 and compScore < 30:
+	print("Great score if you're headed to a great public college!")
+
+if compScore > 21 and compScore < 27:
+	print("Your score is around the national average. Keep working and raise your score")
+
+if compScore > 21:
+	print("Your score is below the national average. Keep working and raise your score")
