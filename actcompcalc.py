@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #Use this program to calculate your ACT composite score
-#Version 2.1
+#Version 2.1.1
 mathScore = int(input('Type in your math score '))
 englishScore = int(input('Type in your english score '))
 readingScore = int(input('Type your reading score '))
@@ -29,5 +29,5 @@ if compScore > 27 and compScore < 30:
 if compScore > 21 and compScore < 27:
 	print("Your score is around the national average. Keep working and raise your score")
 
-if compScore > 21:
+if compScore < 21:
 	print("Your score is below the national average. Keep working and raise your score")
